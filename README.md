@@ -12,6 +12,14 @@ This project includes:
 - a contact page with validation
 - shared navbar branding and navigation helpers
 
+## Screenshots
+<img width="1920" height="866" alt="1" src="https://github.com/user-attachments/assets/9710db6f-70d5-45e9-a95b-411e7dcaf5fb" />
+<img width="1897" height="868" alt="2" src="https://github.com/user-attachments/assets/9b9a9343-38f2-48b3-a972-4e290b3f6652" />
+<img width="1377" height="867" alt="3" src="https://github.com/user-attachments/assets/4dd453f4-54a3-4208-be71-1fa5f55565c4" />
+<img width="1308" height="871" alt="4" src="https://github.com/user-attachments/assets/59292843-0c22-4a64-b84d-78de4ceae6b6" />
+<img width="1311" height="867" alt="5" src="https://github.com/user-attachments/assets/dd509a9d-6731-40b3-8e2b-eae3128f3d4d" />
+
+
 The app uses:
 - `AuthContext` for simple authentication state
 - Redux Toolkit for cart state management
@@ -64,42 +72,6 @@ The app uses:
 - Formik
 - Yup
 - React Icons
-
-## Project Structure
-
-```text
-src/
-  components/
-    AppLogo.jsx
-    AppNavbar.jsx
-    CartButton.jsx
-    ContactButton.jsx
-    FormField.jsx
-    ProtectedRoute.jsx
-  context/
-    AuthContext.js
-  pages/
-    cart-page/
-      cart-page.jsx
-      CartItem.jsx
-    contact-page/
-      ContactPage.jsx
-    product-page/
-      ProductPage.jsx
-    products-page/
-      ProductsPage.jsx
-      components/
-        ProductCard.jsx
-    register-page/
-      RegisterPage.jsx
-  providers/
-    AuthProvider.jsx
-  redux/
-    reducer.js
-    store.js
-  App.jsx
-  main.jsx
-```
 
 ## Routes
 
@@ -162,12 +134,6 @@ The cart reducer supports:
 - `removeProduct`
 - `increaseQuantity`
 - `decreaseQuantity`
-
-## Notes
-
-- Product data is fetched from DummyJSON.
-- The authentication flow is front-end only.
-- This project is focused on learning React patterns such as routing, context, Redux, reusable components, and validation.
 
 ## Author
 
